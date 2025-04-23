@@ -1,0 +1,42 @@
+
+/*rose:FF2E85 fondGris:F5F5F5*/
+
+body{
+    background-color: #F5F5F5;
+}
+.banniere{
+    height: 100px;
+    background-color: #394046;
+}
+
+
+.contourRose{
+    border: solid 2px #FF2E85;
+}
+
+h1{
+    font-size:medium;
+    color: #FF2E85;
+}
+h2{
+    font-size: small;
+    color: white;
+}
+h3{
+    font-size: smaller;
+    color: white;
+}
+h4{
+    font-size: medium;
+    color: #394046;
+}
+h5{
+    font-size: small;
+    color: #394046;
+}
+.hauteur{
+    height: 200px;
+}
+.fondProfil{
+    background-color: white;
+}
