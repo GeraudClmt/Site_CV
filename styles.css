@@ -15,28 +15,41 @@ body{
 }
 
 h1{
-    font-size:large;
+    font-size: 1.2em;
     color: #FF2E85;
 }
 h2{
-    font-size: medium;
-    color: #FF2E85;
+    font-size: 0.7em;
+    color: white;
 }
 h3{
-    font-size: medium;
+    font-size: 0.8em;
     color: white;
 }
 h4{
-    font-size: medium;
-    color: #394046;
+    font-size: 1em;
+    color: #FF2E85;
 }
 h5{
-    font-size: small;
+    font-size: 0.7em;
     color: #394046;
 }
+
 /* .hauteur{
     height: 200px;
 } */
 .fondProfil{
     background-color: white;
+}
+
+@media screen and (min-width: 1000px) {
+    h1{
+        font-size: 2em;
+    }
+    h4{
+        font-size: 1.4em;
+    }
+    h5{
+        font-size: 1.2em;
+    }
 }
