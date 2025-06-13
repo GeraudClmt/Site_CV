@@ -17,7 +17,7 @@ const header = document.getElementById("header");
 header.innerHTML = `
 <div class="row banniere">
             <div class="col-3 col-lg-2 h-100 text-center">
-                <img class="h-100 img-fluid object-fit-cover" src="Assets/logo.jpeg" alt="logo">
+                <a href="index.html"><img class="h-100 img-fluid object-fit-cover" src="Assets/logo.jpeg" alt="logo"></a>
             </div>
             <div class="col-6 col-lg-8 h-100 text-center p-0">
                 <h1 class="mt-2"> Développeur Avancé</h1>
