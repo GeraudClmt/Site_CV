@@ -13,22 +13,22 @@ fichesMelangees.forEach(fiche => container.appendChild(fiche));
 
 
 //Composant header
-// const header = document.getElementById("header");
-// header.innerHTML = `
-// <div class="row banniere">
-//             <div class="col-3 col-lg-2 h-100 text-center">
-//                 <img class="h-100 img-fluid object-fit-cover" src="Assets/logo.jpeg" alt="logo">
-//             </div>
-//             <div class="col-6 col-lg-8 h-100 text-center p-0">
-//                 <h1 class="mt-2"> Développeur Avancé</h1>
-//                 <h2 class="m-0">2025 - 2026</h2>
-//                 <h2 class="m-0 mt-1">Recherche d'une alternance  du 8 décembre 2025 au 8 décembre 2026</h2>
-//             </div>
-//             <div class="col-3 col-lg-2 h-100 p-3 text-center ">
-//                 <img class="h-100 contourRose img-fluid " src="Assets/QRCode.png" alt="QR Code">
-//             </div>
-//         </div>
-// `
+const header = document.getElementById("header");
+header.innerHTML = `
+<div class="row banniere">
+            <div class="col-3 col-lg-2 h-100 text-center">
+                <img class="h-100 img-fluid object-fit-cover" src="Assets/logo.jpeg" alt="logo">
+            </div>
+            <div class="col-6 col-lg-8 h-100 text-center p-0">
+                <h1 class="mt-2"> Développeur Avancé</h1>
+                <h2 class="m-0">2025 - 2026</h2>
+                <h2 class="m-0 mt-1">Recherche d'une alternance  du 8 décembre 2025 au 8 décembre 2026</h2>
+            </div>
+            <div class="col-3 col-lg-2 h-100 p-3 text-center ">
+                <img class="h-100 contourRose img-fluid " src="Assets/QRCode.png" alt="QR Code">
+            </div>
+        </div>
+`
 
 //Composant footer
 const footer = document.getElementById("footer");
