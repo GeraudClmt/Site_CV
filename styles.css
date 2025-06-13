@@ -1,44 +1,49 @@
-
 /*rose:FF2E85 fondGris:F5F5F5*/
 
-body{
+body {
     background-color: #F5F5F5;
 }
-.banniere{
+
+.banniere {
     height: 100px;
     background-color: #394046;
 }
 
 
-.contourRose{
+.contourRose {
     border: solid 2px #FF2E85;
 }
 
-h1{
+h1 {
     font-size: 1.2em;
     color: #FF2E85;
 }
-h2{
+
+h2 {
     font-size: 0.7em;
     color: white;
 }
-h3{
+
+h3 {
     font-size: 0.8em;
     color: white;
 }
-h4{
+
+h4 {
     font-size: 1em;
     color: #FF2E85;
 }
-h5{
+
+h5 {
     font-size: 0.7em;
     color: #394046;
 }
 
-.fondProfil{
+.fondProfil {
     background-color: white;
 }
-.dejaRecrute{
+
+.dejaRecrute {
     position: absolute;
     height: 10em;
     width: 10em;
@@ -46,13 +51,15 @@ h5{
 
 
 @media screen and (min-width: 1000px) {
-    h1{
+    h1 {
         font-size: 2em;
     }
-    h4{
+
+    h4 {
         font-size: 1.4em;
     }
-    h5{
+
+    h5 {
         font-size: 1.2em;
     }
 }
@@ -104,4 +111,13 @@ h5{
   color: white;
   transform: rotateY(180deg);
   border-radius: 7px;
+}
+
+/* Planning dev et alt */
+.planning {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    
 }
